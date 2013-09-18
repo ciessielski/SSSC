@@ -64,10 +64,10 @@
 		64151D7D17BB4BF400E7A300 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		64151D7F17BB4BF400E7A300 /* marynarzykCounterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = marynarzykCounterTests.h; sourceTree = "<group>"; };
 		64151D8017BB4BF400E7A300 /* marynarzykCounterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = marynarzykCounterTests.m; sourceTree = "<group>"; };
-		6456DF2917C1D02100A225FE /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
-		6456DF2B17C1D06A00A225FE /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		64C2E99917C86CCF004354F1 /* ikonka_counterApp57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ikonka_counterApp57.png; sourceTree = "<group>"; };
-		64C2E99B17C86CD8004354F1 /* ikonka_counterApp114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ikonka_counterApp114.png; sourceTree = "<group>"; };
+		6456DF2917C1D02100A225FE /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../Developer/SSSC/icons/icon@2x.png"; sourceTree = "<group>"; };
+		6456DF2B17C1D06A00A225FE /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../Developer/SSSC/icons/icon.png; sourceTree = "<group>"; };
+		64C2E99917C86CCF004354F1 /* ikonka_counterApp57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ikonka_counterApp57.png; path = ../Developer/SSSC/icons/ikonka_counterApp57.png; sourceTree = "<group>"; };
+		64C2E99B17C86CD8004354F1 /* ikonka_counterApp114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ikonka_counterApp114.png; path = ../Developer/SSSC/icons/ikonka_counterApp114.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
