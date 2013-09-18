@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6405277617C2CB5100C1ED71 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6405277417C2CB5100C1ED71 /* iPhone.storyboard */; };
+		64151D5017BB4BF400E7A300 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64151D4F17BB4BF400E7A300 /* UIKit.framework */; };
+		64151D5217BB4BF400E7A300 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64151D5117BB4BF400E7A300 /* Foundation.framework */; };
+		64151D5417BB4BF400E7A300 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64151D5317BB4BF400E7A300 /* CoreGraphics.framework */; };
+		64151D5A17BB4BF400E7A300 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64151D5817BB4BF400E7A300 /* InfoPlist.strings */; };
+		64151D5C17BB4BF400E7A300 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64151D5B17BB4BF400E7A300 /* main.m */; };
+		64151D6017BB4BF400E7A300 /* MCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64151D5F17BB4BF400E7A300 /* MCAppDelegate.m */; };
+		64151D6217BB4BF400E7A300 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 64151D6117BB4BF400E7A300 /* Default.png */; };
+		64151D6417BB4BF400E7A300 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64151D6317BB4BF400E7A300 /* Default@2x.png */; };
+		64151D6617BB4BF400E7A300 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64151D6517BB4BF400E7A300 /* Default-568h@2x.png */; };
+		64151D6917BB4BF400E7A300 /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64151D6717BB4BF400E7A300 /* iPad.storyboard */; };
+		64151D6C17BB4BF400E7A300 /* MCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64151D6B17BB4BF400E7A300 /* MCViewController.m */; };
+		64151D7417BB4BF400E7A300 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64151D7317BB4BF400E7A300 /* SenTestingKit.framework */; };
+		64151D7517BB4BF400E7A300 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64151D4F17BB4BF400E7A300 /* UIKit.framework */; };
+		64151D7617BB4BF400E7A300 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64151D5117BB4BF400E7A300 /* Foundation.framework */; };
+		64151D7E17BB4BF400E7A300 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64151D7C17BB4BF400E7A300 /* InfoPlist.strings */; };
+		64151D8117BB4BF400E7A300 /* marynarzykCounterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64151D8017BB4BF400E7A300 /* marynarzykCounterTests.m */; };
+		6456DF2A17C1D02100A225FE /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6456DF2917C1D02100A225FE /* icon@2x.png */; };
+		6456DF2C17C1D06A00A225FE /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6456DF2B17C1D06A00A225FE /* icon.png */; };
+		64C2E99A17C86CCF004354F1 /* ikonka_counterApp57.png in Resources */ = {isa = PBXBuildFile; fileRef = 64C2E99917C86CCF004354F1 /* ikonka_counterApp57.png */; };
+		64C2E99C17C86CD8004354F1 /* ikonka_counterApp114.png in Resources */ = {isa = PBXBuildFile; fileRef = 64C2E99B17C86CD8004354F1 /* ikonka_counterApp114.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64151D7717BB4BF400E7A300 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64151D4417BB4BF400E7A300 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64151D4B17BB4BF400E7A300;
+			remoteInfo = marynarzykCounter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6405277517C2CB5100C1ED71 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/iPhone.storyboard; sourceTree = "<group>"; };
+		64151D4C17BB4BF400E7A300 /* marynarzykCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = marynarzykCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64151D4F17BB4BF400E7A300 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		64151D5117BB4BF400E7A300 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		64151D5317BB4BF400E7A300 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		64151D5717BB4BF400E7A300 /* marynarzykCounter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "marynarzykCounter-Info.plist"; sourceTree = "<group>"; };
+		64151D5917BB4BF400E7A300 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64151D5B17BB4BF400E7A300 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64151D5D17BB4BF400E7A300 /* marynarzykCounter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "marynarzykCounter-Prefix.pch"; sourceTree = "<group>"; };
+		64151D5E17BB4BF400E7A300 /* MCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCAppDelegate.h; sourceTree = "<group>"; };
+		64151D5F17BB4BF400E7A300 /* MCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCAppDelegate.m; sourceTree = "<group>"; };
+		64151D6117BB4BF400E7A300 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		64151D6317BB4BF400E7A300 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		64151D6517BB4BF400E7A300 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		64151D6817BB4BF400E7A300 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/iPad.storyboard; sourceTree = "<group>"; };
+		64151D6A17BB4BF400E7A300 /* MCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCViewController.h; sourceTree = "<group>"; };
+		64151D6B17BB4BF400E7A300 /* MCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCViewController.m; sourceTree = "<group>"; };
+		64151D7217BB4BF400E7A300 /* marynarzykCounterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = marynarzykCounterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64151D7317BB4BF400E7A300 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		64151D7B17BB4BF400E7A300 /* marynarzykCounterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "marynarzykCounterTests-Info.plist"; sourceTree = "<group>"; };
+		64151D7D17BB4BF400E7A300 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64151D7F17BB4BF400E7A300 /* marynarzykCounterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = marynarzykCounterTests.h; sourceTree = "<group>"; };
+		64151D8017BB4BF400E7A300 /* marynarzykCounterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = marynarzykCounterTests.m; sourceTree = "<group>"; };
+		6456DF2917C1D02100A225FE /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		6456DF2B17C1D06A00A225FE /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		64C2E99917C86CCF004354F1 /* ikonka_counterApp57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ikonka_counterApp57.png; sourceTree = "<group>"; };
+		64C2E99B17C86CD8004354F1 /* ikonka_counterApp114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ikonka_counterApp114.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64151D4917BB4BF400E7A300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64151D5017BB4BF400E7A300 /* UIKit.framework in Frameworks */,
+				64151D5217BB4BF400E7A300 /* Foundation.framework in Frameworks */,
+				64151D5417BB4BF400E7A300 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64151D6E17BB4BF400E7A300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64151D7417BB4BF400E7A300 /* SenTestingKit.framework in Frameworks */,
+				64151D7517BB4BF400E7A300 /* UIKit.framework in Frameworks */,
+				64151D7617BB4BF400E7A300 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64151D4317BB4BF400E7A300 = {
+			isa = PBXGroup;
+			children = (
+				64C2E99B17C86CD8004354F1 /* ikonka_counterApp114.png */,
+				64C2E99917C86CCF004354F1 /* ikonka_counterApp57.png */,
+				6456DF2B17C1D06A00A225FE /* icon.png */,
+				6456DF2917C1D02100A225FE /* icon@2x.png */,
+				64151D5517BB4BF400E7A300 /* marynarzykCounter */,
+				64151D7917BB4BF400E7A300 /* marynarzykCounterTests */,
+				64151D4E17BB4BF400E7A300 /* Frameworks */,
+				64151D4D17BB4BF400E7A300 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64151D4D17BB4BF400E7A300 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64151D4C17BB4BF400E7A300 /* marynarzykCounter.app */,
+				64151D7217BB4BF400E7A300 /* marynarzykCounterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64151D4E17BB4BF400E7A300 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64151D4F17BB4BF400E7A300 /* UIKit.framework */,
+				64151D5117BB4BF400E7A300 /* Foundation.framework */,
+				64151D5317BB4BF400E7A300 /* CoreGraphics.framework */,
+				64151D7317BB4BF400E7A300 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64151D5517BB4BF400E7A300 /* marynarzykCounter */ = {
+			isa = PBXGroup;
+			children = (
+				64151D5E17BB4BF400E7A300 /* MCAppDelegate.h */,
+				64151D5F17BB4BF400E7A300 /* MCAppDelegate.m */,
+				64151D6717BB4BF400E7A300 /* iPad.storyboard */,
+				6405277417C2CB5100C1ED71 /* iPhone.storyboard */,
+				64151D6A17BB4BF400E7A300 /* MCViewController.h */,
+				64151D6B17BB4BF400E7A300 /* MCViewController.m */,
+				64151D5617BB4BF400E7A300 /* Supporting Files */,
+			);
+			path = marynarzykCounter;
+			sourceTree = "<group>";
+		};
+		64151D5617BB4BF400E7A300 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64151D5717BB4BF400E7A300 /* marynarzykCounter-Info.plist */,
+				64151D5817BB4BF400E7A300 /* InfoPlist.strings */,
+				64151D5B17BB4BF400E7A300 /* main.m */,
+				64151D5D17BB4BF400E7A300 /* marynarzykCounter-Prefix.pch */,
+				64151D6117BB4BF400E7A300 /* Default.png */,
+				64151D6317BB4BF400E7A300 /* Default@2x.png */,
+				64151D6517BB4BF400E7A300 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64151D7917BB4BF400E7A300 /* marynarzykCounterTests */ = {
+			isa = PBXGroup;
+			children = (
+				64151D7F17BB4BF400E7A300 /* marynarzykCounterTests.h */,
+				64151D8017BB4BF400E7A300 /* marynarzykCounterTests.m */,
+				64151D7A17BB4BF400E7A300 /* Supporting Files */,
+			);
+			path = marynarzykCounterTests;
+			sourceTree = "<group>";
+		};
+		64151D7A17BB4BF400E7A300 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64151D7B17BB4BF400E7A300 /* marynarzykCounterTests-Info.plist */,
+				64151D7C17BB4BF400E7A300 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64151D4B17BB4BF400E7A300 /* marynarzykCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64151D8417BB4BF400E7A300 /* Build configuration list for PBXNativeTarget "marynarzykCounter" */;
+			buildPhases = (
+				64151D4817BB4BF400E7A300 /* Sources */,
+				64151D4917BB4BF400E7A300 /* Frameworks */,
+				64151D4A17BB4BF400E7A300 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = marynarzykCounter;
+			productName = marynarzykCounter;
+			productReference = 64151D4C17BB4BF400E7A300 /* marynarzykCounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64151D7117BB4BF400E7A300 /* marynarzykCounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64151D8717BB4BF400E7A300 /* Build configuration list for PBXNativeTarget "marynarzykCounterTests" */;
+			buildPhases = (
+				64151D6D17BB4BF400E7A300 /* Sources */,
+				64151D6E17BB4BF400E7A300 /* Frameworks */,
+				64151D6F17BB4BF400E7A300 /* Resources */,
+				64151D7017BB4BF400E7A300 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64151D7817BB4BF400E7A300 /* PBXTargetDependency */,
+			);
+			name = marynarzykCounterTests;
+			productName = marynarzykCounterTests;
+			productReference = 64151D7217BB4BF400E7A300 /* marynarzykCounterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64151D4417BB4BF400E7A300 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MC;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Mielczarek;
+			};
+			buildConfigurationList = 64151D4717BB4BF400E7A300 /* Build configuration list for PBXProject "SSSC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 64151D4317BB4BF400E7A300;
+			productRefGroup = 64151D4D17BB4BF400E7A300 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64151D4B17BB4BF400E7A300 /* marynarzykCounter */,
+				64151D7117BB4BF400E7A300 /* marynarzykCounterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64151D4A17BB4BF400E7A300 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64151D5A17BB4BF400E7A300 /* InfoPlist.strings in Resources */,
+				64151D6217BB4BF400E7A300 /* Default.png in Resources */,
+				64151D6417BB4BF400E7A300 /* Default@2x.png in Resources */,
+				64151D6617BB4BF400E7A300 /* Default-568h@2x.png in Resources */,
+				64151D6917BB4BF400E7A300 /* iPad.storyboard in Resources */,
+				6456DF2A17C1D02100A225FE /* icon@2x.png in Resources */,
+				6456DF2C17C1D06A00A225FE /* icon.png in Resources */,
+				6405277617C2CB5100C1ED71 /* iPhone.storyboard in Resources */,
+				64C2E99A17C86CCF004354F1 /* ikonka_counterApp57.png in Resources */,
+				64C2E99C17C86CD8004354F1 /* ikonka_counterApp114.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64151D6F17BB4BF400E7A300 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64151D7E17BB4BF400E7A300 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64151D7017BB4BF400E7A300 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64151D4817BB4BF400E7A300 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64151D5C17BB4BF400E7A300 /* main.m in Sources */,
+				64151D6017BB4BF400E7A300 /* MCAppDelegate.m in Sources */,
+				64151D6C17BB4BF400E7A300 /* MCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64151D6D17BB4BF400E7A300 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64151D8117BB4BF400E7A300 /* marynarzykCounterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64151D7817BB4BF400E7A300 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64151D4B17BB4BF400E7A300 /* marynarzykCounter */;
+			targetProxy = 64151D7717BB4BF400E7A300 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6405277417C2CB5100C1ED71 /* iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6405277517C2CB5100C1ED71 /* en */,
+			);
+			name = iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		64151D5817BB4BF400E7A300 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64151D5917BB4BF400E7A300 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		64151D6717BB4BF400E7A300 /* iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64151D6817BB4BF400E7A300 /* en */,
+			);
+			name = iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		64151D7C17BB4BF400E7A300 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64151D7D17BB4BF400E7A300 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64151D8217BB4BF400E7A300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Michal Ciesielski (4V9FNC79Z9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "FCC463B4-F22D-4A52-B374-00617CF51CE9";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		64151D8317BB4BF400E7A300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Michal Ciesielski (4V9FNC79Z9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "FCC463B4-F22D-4A52-B374-00617CF51CE9";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64151D8517BB4BF400E7A300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Michal Ciesielski (8LW2Y4F2XA)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "marynarzykCounter/marynarzykCounter-Prefix.pch";
+				INFOPLIST_FILE = "marynarzykCounter/marynarzykCounter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "10E109BE-C572-4329-BD24-57BC29AAD5E7";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		64151D8617BB4BF400E7A300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Michal Ciesielski (8LW2Y4F2XA)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "marynarzykCounter/marynarzykCounter-Prefix.pch";
+				INFOPLIST_FILE = "marynarzykCounter/marynarzykCounter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "10E109BE-C572-4329-BD24-57BC29AAD5E7";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		64151D8817BB4BF400E7A300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/marynarzykCounter.app/marynarzykCounter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "marynarzykCounter/marynarzykCounter-Prefix.pch";
+				INFOPLIST_FILE = "marynarzykCounterTests/marynarzykCounterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		64151D8917BB4BF400E7A300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/marynarzykCounter.app/marynarzykCounter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "marynarzykCounter/marynarzykCounter-Prefix.pch";
+				INFOPLIST_FILE = "marynarzykCounterTests/marynarzykCounterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64151D4717BB4BF400E7A300 /* Build configuration list for PBXProject "SSSC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64151D8217BB4BF400E7A300 /* Debug */,
+				64151D8317BB4BF400E7A300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64151D8417BB4BF400E7A300 /* Build configuration list for PBXNativeTarget "marynarzykCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64151D8517BB4BF400E7A300 /* Debug */,
+				64151D8617BB4BF400E7A300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64151D8717BB4BF400E7A300 /* Build configuration list for PBXNativeTarget "marynarzykCounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64151D8817BB4BF400E7A300 /* Debug */,
+				64151D8917BB4BF400E7A300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64151D4417BB4BF400E7A300 /* Project object */;
+}
